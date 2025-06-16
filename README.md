@@ -19,10 +19,10 @@ Pré-requisitos
 Como executar o projeto
 
 1. Clone este repositório:  
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone git https://github.com/AllanBill/front-end-trabalho.git
 
 2. Entre na pasta do projeto:  
-   cd seu-repositorio/front-end-trabalho
+   cd .../front-end-trabalho
 
 3. Instale as dependências:  
    npm install
