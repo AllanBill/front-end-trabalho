@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
-@Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+import { AppComponent } from './app.component';
+import { Home } from './pages/home/home';
+import { Sobre } from './pages/sobre/sobre';
+import { routes } from './app.routes';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(routes),
+    AppComponent,
+    Home,
+    Sobre
+  ],
+  bootstrap: [AppComponent]
 })
-export class App {
-  protected title = 'front-end-trabalho';
-}
+export class AppModule {}

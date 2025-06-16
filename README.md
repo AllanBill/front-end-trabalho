@@ -1,59 +1,64 @@
-# FrontEndTrabalho
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+Projeto Front-End Trabalho
 
-## Development server
+Este projeto é uma aplicação Angular moderna que utiliza componentes standalone e roteamento para criar uma interface simples com páginas Home e Sobre.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+Pré-requisitos
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Node.js (versão 16 ou superior recomendada)  
+  Baixe aqui: https://nodejs.org/
 
-## Code scaffolding
+- Angular CLI (opcional, para rodar comandos localmente)  
+  Para instalar globalmente (se desejar):  
+  npm install -g @angular/cli
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+Como executar o projeto
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+1. Clone este repositório:  
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 
-```bash
-ng generate --help
-```
+2. Entre na pasta do projeto:  
+   cd seu-repositorio/front-end-trabalho
 
-## Building
+3. Instale as dependências:  
+   npm install
 
-To build the project run:
+4. Execute a aplicação:  
+   ng serve --open  
+   Ou, caso tenha o script no package.json:  
+   npm start
 
-```bash
-ng build
-```
+5. O navegador abrirá automaticamente no endereço:  
+   http://localhost:4200/
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+Observações importantes
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- O projeto usa Zone.js para gerenciamento de mudanças, que já está incluído nas dependências.
+- Se o navegador não abrir automaticamente, acesse o endereço manualmente.
+- O projeto está estruturado com componentes standalone, e o bootstrap é feito via bootstrapApplication no arquivo main.ts.
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+Estrutura do Projeto
 
-For end-to-end (e2e) testing, run:
+- src/app/pages/home - Página Home (conteúdo principal inicial)  
+- src/app/pages/sobre - Página Sobre (informações adicionais)  
+- src/app/app.routes.ts - Definição das rotas da aplicação  
+- src/app/app.component.ts - Componente raiz da aplicação  
+- src/main.ts - Ponto de entrada e bootstrap da aplicação
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Contato
 
-## Additional Resources
+Em caso de dúvidas ou problemas, entre em contato com Allan Schuster Bill.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+Obrigado por testar o projeto! 🚀
