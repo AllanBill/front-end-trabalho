@@ -1,32 +1,37 @@
+/* Container principal da página inicial */
 .home-container {
-  text-align: center;
-  margin-top: 100px;
-  font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 100px; /* Espaço superior */
+    font-family: Arial, sans-serif; /* Fonte padrão */
 }
 
+/* Estilo do título principal */
 .home-container h1 {
-  color: #4CAF50;
-  font-size: 36px;
-  margin-bottom: 10px;
+    color: #4CAF50; /* Cor verde */
+    font-size: 36px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaço abaixo do título */
 }
 
+/* Estilo do parágrafo */
 .home-container p {
-  font-size: 18px;
-  color: #666;
+    font-size: 18px; /* Tamanho da fonte */
+    color: #666; /* Cor do texto */
 }
 
+/* Estilo do botão */
 .home-container button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-  transition: background-color 0.3s;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 12px 24px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 20px; /* Espaço acima do botão */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
 }
 
+/* Efeito ao passar o mouse sobre o botão */
 .home-container button:hover {
-  background-color: #45a049;
+    background-color: #45a049; /* Cor de fundo mais escura */
 }

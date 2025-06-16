@@ -1,32 +1,37 @@
+/* Container principal da página Sobre */
 .sobre-container {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 20px;
-  font-family: 'Segoe UI', sans-serif;
-  text-align: center;
-  color: #333;
+    max-width: 800px; /* Largura máxima do container */
+    margin: 60px auto; /* Centraliza verticalmente com espaçamento superior */
+    padding: 20px; /* Espaçamento interno */
+    font-family: 'Segoe UI', sans-serif; /* Fonte principal */
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
 }
 
+/* Título principal */
 .sobre-container h1 {
-  font-size: 40px;
-  color: #3f51b5;
-  margin-bottom: 20px;
+    font-size: 40px; /* Tamanho da fonte */
+    color: #3f51b5; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
 
+/* Parágrafos dentro do container */
 .sobre-container p {
-  font-size: 18px;
-  line-height: 1.6;
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
 }
 
+/* Cartão de informações */
 .card {
-  background-color: #f5f5f5;
-  padding: 20px;
-  margin-top: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #f5f5f5; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 30px; /* Espaçamento superior */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra */
 }
 
+/* Título do cartão */
 .card h2 {
-  color: #333;
-  margin-bottom: 10px;
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
